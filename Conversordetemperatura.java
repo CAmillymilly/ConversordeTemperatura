@@ -11,6 +11,9 @@ public class ConversordeTemperatura {
 		// Criação e instancia do objeto de entrada
 		Scanner entrada = new Scanner(System.in);
 
+
+	do {
+
 		// Apresentação
 		System.out.println("\n\t\t\t --- Conversor de Temperatura --- \n");
 
@@ -54,5 +57,8 @@ public class ConversordeTemperatura {
 			System.out.println("Opção " + opçao + " Incorreta!");
 		}
 
-	}
+	} while (opçao != 5);
+
+}
+
 }
