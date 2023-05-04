@@ -51,7 +51,7 @@ public class ConversordeTemperatura {
 			System.out.println("\nCelsius= " + C + "\n\n");
 
 		} else if (opçao == 3) {
-			System.out.println("Tchau, volte sempre!");
+			System.out.println("Obrigado pela preferência, volte sempre!");
 
 		} else {
 			System.out.println("Opção " + opçao + " Incorreta!");
