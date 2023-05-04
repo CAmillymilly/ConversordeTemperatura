@@ -57,7 +57,7 @@ public class ConversordeTemperatura {
 			System.out.println("Opção " + opçao + " Incorreta!");
 		}
 
-	} while (opçao != 5);
+	} while (opçao != 3);
 
 }
 
