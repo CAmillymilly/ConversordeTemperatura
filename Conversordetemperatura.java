@@ -11,7 +11,7 @@ public class ConversordeTemperatura {
 		// Criação e instancia do objeto de entrada
 		Scanner entrada = new Scanner(System.in);
 
-		// Apresentação
+		// Apresentação 
 		System.out.println("\n\t\t\t --- Conversor de Temperatura --- \n");
 
 		// Leticia
