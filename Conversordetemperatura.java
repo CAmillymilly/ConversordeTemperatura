@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Conversordetemperatura {
+public class ConversordeTemperatura {
 
 	public static void main(String[] args) {
 		// Camilly
