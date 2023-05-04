@@ -11,7 +11,7 @@ public class ConversordeTemperatura {
 		// Criação e instancia do objeto de entrada
 		Scanner entrada = new Scanner(System.in);
 
-		// Apresentação 
+		// Apresentação
 		System.out.println("\n\t\t\t --- Conversor de Temperatura --- \n");
 
 		// Leticia
@@ -36,7 +36,7 @@ public class ConversordeTemperatura {
 			System.out.println("\nFahrenheit= " + F + "\n\n");
 
 			// Leticia
-		} else if (opçao == 2){
+		} else if (opçao == 2) {
 			// Entradas
 			System.out.print("Informe Fahrenheit: ");
 			F = entrada.nextDouble();
@@ -48,13 +48,11 @@ public class ConversordeTemperatura {
 			System.out.println("\nCelsius= " + C + "\n\n");
 
 		} else if (opçao == 3) {
-            System.out.println("Tchau, volte sempre!");
-        } else{
-            System.out.println("Opção " +  opçao + " Incorreta!");
-        }
+			System.out.println("Tchau, volte sempre!");
+
+		} else {
+			System.out.println("Opção " + opçao + " Incorreta!");
+		}
 
 	}
 }
-
-
-
