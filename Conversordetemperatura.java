@@ -19,6 +19,7 @@ public class ConversordeTemperatura {
 		System.out.println("Escolha a opção:");
 		System.out.println("1. Converter de Celsius para Fahrenheit");
 		System.out.println("2. Converter de Fahrenheit para Celsius");
+		System.out.println("3. Sair");
 
 		opçao = entrada.nextInt();
 
@@ -35,7 +36,7 @@ public class ConversordeTemperatura {
 			System.out.println("\nFahrenheit= " + F + "\n\n");
 
 			// Leticia
-		} else if (opçao == 2)
+		} else if (opçao == 2){
 			// Entradas
 			System.out.print("Informe Fahrenheit: ");
 			F = entrada.nextDouble();
@@ -46,7 +47,14 @@ public class ConversordeTemperatura {
 			// Saída
 			System.out.println("\nCelsius= " + C + "\n\n");
 
-	}
+		} else if (opçao == 3) {
+            System.out.println("Tchau, volte sempre!");
+        } else{
+            System.out.println("Opção " +  opçao + " Incorreta!");
+        }
 
+	}
 }
+
+
 
